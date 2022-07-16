@@ -1,3 +1,28 @@
-<ion-app>
-  <ion-router-outlet></ion-router-outlet>
-</ion-app>
+
+
+<ion-accordion-group class="accordion">
+  <ion-accordion value="first">
+    <ion-item slot="header" color="light">
+      <ion-label>Foto</ion-label>
+    </ion-item>
+    <div class="ion-padding" slot="content">
+      <ion-img src="https://th.bing.com/th/id/OIP.VBBtH-7AcyL8lNBk-VeVeAHaF7?pid=ImgDet&rs=1"></ion-img>
+    </div>
+  </ion-accordion>
+  <ion-accordion value="second">
+    <ion-item slot="header" color="light">
+      <ion-label>Calendario</ion-label>
+    </ion-item>
+    <div class="ion-padding" slot="content">
+      <ion-datetime></ion-datetime>
+    </div>
+  </ion-accordion>
+  <ion-accordion value="third">
+    <ion-item slot="header" color="light">
+      <ion-label>Botão</ion-label>
+    </ion-item>
+    <div class="ion-padding" slot="content">
+      <ion-button class="hello" size="large" fill="outline">Hello Word</ion-button>
+    </div>
+  </ion-accordion>
+</ion-accordion-group>
